@@ -1,0 +1,16 @@
+# ignore archives
+*.zip
+
+# ignore extraneous library files
+fpdf/doc
+fpdf/tutorial
+fpdf/makefont
+fpdf/*.htm
+fpdf/fpdf.css
+
+
+fpdi2/doc
+fpdi2/tests
+fpdi2/local-tests
+fpdi2/composer*
+fpdi2/scratches

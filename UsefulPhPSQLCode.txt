@@ -1,0 +1,83 @@
+//search bar
+Search tags <input type="text" name="tags">
+
+
+  require_once 'login.php';
+$conn = new mysqli($hn, $un, $pw, $db);//host name, user name, password, database
+
+$query  = "SELECT * FROM problems"; //this here can be used to get a certain subset of problems
+  $result = $conn->query($query);
+
+for ($j = 0 ; $j < $rows ; ++$j)
+  {
+    $result->data_seek($j);
+    $row = $result->fetch_array(MYSQLI_NUM);
+
+<pre>
+    Problem         $row[0]
+    Problemimage    $row[1]
+    Solution        $row[2]
+    Solution Image  $row[3]
+    Problem number  $row[4]
+  </pre>
+  
+  
+  $result->close();
+  $conn->close();
+
+
+//command line stuff to add data entries
+INSERT INTO dbname(id, tag)
+VALUES("idval","tagval");
+
+
+//This code is simple cookie creation and checking usage
+<?php
+$cookie_name = "user";
+$cookie_value = "John Doe";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
+<?php
+if(!isset($_COOKIE[$cookie_name])) {
+    echo "Cookie named '" . $cookie_name . "' is not set!";
+} else {
+    echo "Cookie '" . $cookie_name . "' is set!<br>";
+    echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?>
+
+
+<?php //add problem
+	if(isset($_COOKIE[$cookie_name])){
+		setcookie($cookie_name,$_COOKIE[$cookie_name].",".$_GET["name"].":".$_GET["number"],time()+2592000,"/");
+
+	}else{
+		setcookie($cookie_name,$_GET["name"].":".$_GET["number"],time()+2592000,"/");
+	} 
+
+?>
+
+
+<?php //remove problem# to delete
+	if(isset($_COOKIE[$cookie_name])){
+		$out = "";
+		$arr=explode(",",$_COOKIE[$cookie_name]);
+		foreach($arr as $i){
+			$temp = explode(":",$i);
+			//if input = number
+			if($_GET["num"]==temp[1]){
+				//do nothing
+			}else{
+				if($out==""){
+					$out=$temp[0] . ":" . $temp[1];//first element doesnt get a preceeding comma
+				}else{
+					$out=$out . "," . $temp[0] . ":" . $temp[1];
+				}
+			}
+		}
+
+		setcookie($cookie_name,$out,time()+2592000,"/");
+	}else{
+		//no cookie, do nothing. maybe display an error
+	}
+?>

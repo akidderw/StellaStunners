@@ -1,0 +1,170 @@
+Code	Author	Title	Publisher	Date
+A.01	Abraham, R.M.	Tricks and Amusements	Dover	1964
+A.02	Adams, A.A.	Test Yourself	Hart, NYC	1976
+A.03	Agostini, F.	Math and Logic Games	Harper & Row	1980
+A.04	Ambinder, G.E.	Puzzlement	Rampage	1974
+A.05	Anonymous	101 Brain Twisters	Hood Rubber Co. 	1932
+A.06	Anonymous	Brain Resters and Testers	Coop. Recr. Service	none
+A.07	Anonymous	Count and Capture	Coop. Recr. Service	none
+A.08	Anonymous	Mental Games	Coop. Recr. Service	none
+A.09	Anonymous	Problematical Recreations	Litton Industries	none
+A.10	Anonymous	Puzzle Craft	Coop. Recr. Service	none
+A.11	Avallone, M.	5-Minute Mysteries	Scholastic	1978
+B.01	Barnard, D.St.P.	Figure it Out	Fawcett	1973
+B.02	Barr, S.	Mathematical Brain Benders 2	Dover	1982
+B.03	Bates, N & Smith, M.	101 Puzzle Problems	Bates	1980
+B.04	Beman,W.& Smith,D.	Klein's Famous Problems . . .	Athanaeum	1897
+B.05	Berloquin, P.	100 Geometric Games	Scribner's 	1976
+B.06	Blocksma, M.	Reading the Numbers	Penguin	1989
+B.07	Bolt, B.	The Amazing Mathematical Amusement Arcade	Cambridge U. Press	1984
+B.08	Bramson, M.	Mathematics Level I (College Bd. Ach. Test)	Arc	1966
+B.09	Brousseau, A.	St. Mary's College Mathematics Contest Problems	Creative Publications	1972
+B.10	Brooke, M.	150 Puzzles in Crypt-Arithmetic	Dover	1969
+B.11	Brooke, M.	Coin Games and Puzzles	Dover	1963
+B.12	Brooke, M.	Tricks, Games, & Puzzles with Matches	Dover	1973
+B.13	Brooks, A.	The New Normal Mental Arithmetic	Sower	1873
+B.14	Brown,S. & Walter, M.	The Art of Problem Posing	Franklin Inst	1983
+B.15	Bryant,S. et al.	Nonroutine Problems in alg, geom, trig	McGraw-Hill	1965
+C.01	California Board of Ed.	Advanced Arithmetic	State Printing Office	1887
+C.02	Carroll, L.	Pillow Problems & a Tangled Tale	Dover	1958
+C.03	Carroll, L.	Symbolic Game of Logic	Dover	1958
+C.04	Charosh, M.	Mathematical Challenges	NCTM	1965
+C.05	Churchill, E. & L.	Puzzles & Quizzes	Scholastic	1974
+C.06	Conrad, S. & Flegler, D.	The 1st Elem Gr. Math League Prob. Bk.	Math Lg Pr	1986
+C.07	Conrad, S. & Flegler, D.	The 1st 7ty & 8th Gr. M. L. Prob. Bk.	Math Lg Pr	1986
+C.08	Crawford, R. et al.	Achievement in Mathematics, books ! & 2	Allyn & Bacon	1974
+C.09	Crawford, R., collector	Brainteasers, file folder	various	var.
+C.10	Crawford, R., collector	Miscellaneous Resources I, file folder	various	var.
+C.11	Crawford, R., collector	Miscellaneous Resources II, file folder	various	var.
+C.12	Crawford, R., collector	Miscellaneous Resources III, ring binder	various	var.
+C.13	Crawford, R., collector	Miscellaneous Resources IV, file folder	various	var.
+C.14	Crawford, R., collector	Stella Pool, file folder	various	var.
+D.01	Davies, C	Elementary Algebra	Barnes	1851
+D.02	Davis, Frederick W.	Fascinating Figure Puzzles	Burroughs	1933
+D.03	DeGrazio, J	More Math Teasers	Barnes & Noble	1973
+D.04	DeGrazio, J. 	Math is Fun	Emerson	1954
+D.05	Dilson, J.	The Abacus	St Martin's	1968
+D.06	Dilworth, T.	The Schoolmaster's Assistant	Millar	1793
+D.07	D?rrie, H.	100 Great Prob's of Elem. Mathematics	Dover 	1965
+D.08	Dudeney, H.	536 Puzzles & Curious Problems	Scribner's	1967
+D.09	Dudeney, H.	Amusements in Mathematics	Dover 	1958
+D.10	Dudeney, H.	The Canterbury Puzzles	Dover	1958
+D.11	Duncum, A. & Gresty, A.	Logic Problems	British European	1986
+D.12	Dunn, A.	Mathematical Bafflers	Dover 	1980
+D.13	Dunn, A.	Second Book of Mathematical Bafflers	Dover	1983
+E.01	Emmet, E.	101 Brain Puzzlers	Barnes & Noble	1970
+E.02	Emmet, E.	Puzzles for Pleasure	Bell	1972
+F.01	Fadiman, C.	Fantasia Mathematica	Simon & Schuster	1958
+F.02	Fadiman, C.	The Mathematical Magpie	Simon & Schuster	1962
+F.03	Fish, D.	Robinson's Progressive Practical Arithmetic	Ivison et al.	1876
+F.04	Fixx, J.	Games for the Super-Intelligent	Popular Library	1972
+F.05	Fixx, J.	More Games for the Super-Intelligent	Popular Library	1977
+F.06	Fixx, J.	Solve It!	Fred. Muller Ltd.	1979
+F.07	Friedland, A.	Puzzles in Math & Logic	Dover	1970
+F.08	Frohlichstein, J	Math. Fun, Games, & Puzzles	Dover	1967
+F.09	Fulves, K.	Self-Working Number Magic	Dover 	1983
+F.10	Fults, J.	Magic Squares	Open Court	1974
+F.11	Fusaro, B., ed.	Environmental Mathematics in the Classroom	M.A.A.	2003
+G.01	Games Magazine editors	Big Book of Games	Workman 	1984
+G.02	Games Magazine editors	Big Book of Games II	Workman 	1988
+G.03	Gardner, M.	aha! Insight	Scientific Amer.	1978
+G.04	Gardner, M.	Mathematical Carnival	Knopf	1975
+G.05	Gardner, M.	Mathematical Circus	Vintage 	1981
+G.06	Gardner, M.	Mathematical Puzzles & Diversions	Simon & Schuster	1959
+G.07	Gardner, M.	Mathematical Puzzles of Sam Loyd	Dover	1959
+G.08	Gardner, M.	More Mathematical Puzzles of Sam Loyd	Dover	1960
+G.09	Gamow, G. & Stern, M.	Puzzle-Math	Viking	1963
+G.10	Graham, L.	Ingenious Math. Prob's & Methods	Dover 	1959
+G.11	Graham, L.	The Surprise Attack in Math. Prob's	Dover	1968
+G.12	Greenleaf, B.	The Complete Arithmetic, Oral and Written	Davis	1881
+G.13	Grosswirth, M. et al.	The Mensa Genius Quiz Book	Addison-Wesley	1981
+H.01	Haber, P.	Peter Pauper's Puzzles & Posers	Peter Pauper Press	1963
+H.02	Harris, J.	Marmaduke Multiply's (1841)	Dover	1971
+H.03	Heald, H.	Mathematical Puzzles	Newsp. Info. Svc.	1938
+H.04	Heath, R.	MatheMagic	Dover	1953
+H.05	Honsberger, R.	Mathematical Gems I	M.A.A.	1973
+H.06	Honsberger, R.	Mathematical Gems II	M.A.A.	1976
+H.07	Hufford, R.	Challenging Puzzles in Logic	Dover	1982
+H.08	Hunter, J.	Challenging Mathematical Teasers	Dover	1980
+H.09	Hunter, J.	Entertaining Mathematical Teasers	Dover	1983
+H.10	Hunter, J.	Fun with Figures	Dover	1965
+H.11	Hunter, J.	Maathematical Brain-Teasers	Dover	1976
+H.12	Hunter, J.	More Fun with Figures	Dover	1966
+H.13	Hunter, J. & Madachy, J.	Mathematical Diversions	Dover	1975
+J.01	Jacoby, O	Mathematics for Pleasure	Fawcett	1962
+J.02	Judd, W.	Games, Tricks, & Puzzles for a Hand Calculator	Dymax	1974
+K.01	Kaplan, P	Puzzle Me This	Barnes & Noble	1968
+K.02	Kaplan, P	More Posers	McFadden-Bartell	1965
+K.03	Kaufman	The Book of Modern Puzzles	Dover	1954
+K.04	Kordemsky, B	The Moscow Puzzles	Scribner's	1972
+K.05	Krause, E.`	Taxicab Geometry	Dover	1986
+L.01	Leser, Delores	Puzzles from Isotopic Magazine	Amer. Chem. Society	var.
+L.02	Licks, H.	Recreations in Mathematics	VanNostrand	1917
+L.03	Longley-Cook, L.	Fun for Puzzle People	Fawcett	1971
+L.04	Longley-Cook, L.	Fun with Brain Puzzlers	Fawcett	1965
+L.05	Longley-Cook, L.	Work This One Out	Fawcett	1960
+M.01	Madachy, J.	Mathematics on Vacation	Scribner's	1966
+M.02	McWhirter, N. & R.	Guinness GameBook	Bantam	1974
+M.03	Meyer, J.	Fun with Mathematics	Fawcett/Crest	1952
+M.04	Meyer, J.	More Fun with Mathematics	Fawcett	1963
+M.05	Meyer, J.	Puzzle Paradise	Crown	1946
+M.06	Meyer, J.	Puzzle Quiz and Stunt Fun	Dover	1972
+M.07	Moise, E. & Downs, F	Geometry	Addison-Wesley	1971
+M.08	Morris, I.	Foul Play	Random House	1972
+M.09	Morris, S	The Next Book of Omni Games	New Amer. Library	1988
+M.10	Mathematics Teacher Mag.	various issues, mostly in the '80's	NCTM	var.
+N.01	Newell, P	Topsys & Turvys (1902)	Dover	1964
+N.02	New England Math League	various contest papers	unpublished	var.
+O.01	Ontario Minister of Ed.	The Ontario Public School Arithmetic	Simpson	1910
+O.02	Ostrow, A.	Hundreds of Puzzles & Pastimes	Lancer Focus	1952
+O.03	Ott, E.	You Can Think Better than You Think You Can	Wyden	1973
+P.01	Pallas, N.	Calculator Puzzles, Tricks, & Games	Sterling	1979
+P.02	Parker, Tom	In One Day	Houghton Mifflin	1984
+P.03	Parker, Tom	Rules of Thumb	Houghton Mifflin	1983
+P.04	Payne, J. et al.	Mathematics, grades 7 & 8	Harper & Row	1985
+P.05	Phillips, H. ("Caliban")	My Best Puzzles in Logic & Reasoning	Dover	1961
+P.06	Phillips, H. ("Caliban")	My Best Puzzles in Mathematics	Dover	1961
+P.07	Phillips Exeter Math Dept.	brainteaser problems	unpublished	1985?
+P.08	Pike, N., Esq.	Abriddgment, New & Compl. Syst. Of Arithmetick	Thomas	1795
+P.09	Polya, G. & Kilpatrick,J.	The Stanford Mathematics Problem Book	Teach. Coll Press	1974
+P.10	Polya, G	Mathematical Discovery	Wylie	1965
+P.11	Posamentier, A. & Salkind, C.	Challenging Problems in Algebra	Seymour	1988
+R.01	Ranucci, E.	Four by Four	Houghton Mifflin	1968
+R.02	Reader's Digest Editors	Tests and Teasers	Read. Dig. Assn.	1979
+R.03	Rhoads, J.	The Complete Arithmetic	Simon	1851
+R.04	Ripley, H.	Detectograms and Other Puzzles	Scholastic	1969
+R.05	Robinson, H.	New Elementary Algebra	Ivison, Phinney et al.	1866
+S.01	Rothstein, E., ed.	Math Puzzles and Logic Problems	Dell Magazines	1996
+S.02	Russell, K. & Carter, P.	Picture Puzzles	Foulsham	1994
+S.03	Salkind, C.	The Contest Problem Book I (AHSME '50-'60)	M.A.A.	1961
+S.04	Salkind, C.	The Contest Problem Book II (AHSME '61-'65)	M.A.A.	1966
+S.05	Salkind, C.	The Contest Problem Book III (AHSME '66-'72)	M.A.A.	1973
+S.06	Salkind, C.	The Contest Problem Book IV (AHSME '73-'82)	M.A.A.	1983?
+S.07	Sawyer, W.	Mathematician's Delight	Penguin	1950
+S.08	Schuh, F	The Master Book of Mathematical Recreations	Dover 	1968
+S.09	Sharp, R. et al.	Use of Magic Squares in Mathematics Instruction	Merrill	1972
+S.10	Shepherd, W	Mazes and Labyrinths: A Book of Puzzles	Dover	1961
+S.11	Shute, W., et al.	Plane Geometry	American Book Co.	1957
+S.12	Smith, R. & Ulrich, J.	Plane Geometry	World Book	1956
+S.13	Smullyan, R.	Alice in Puzzle-Land	Penguin	1984
+S.14	Smullyan, R.	What is the Name of This Book?	Prentice-Hall	1978
+S.15	Sobol, D.	Still More Two-Minute Mysteries	Scholastic	1975
+S.16	Steinhaus, H.	One Hundred Problems in Elementary Math.	Dover	1964
+S.17	Stella, herself	Stella's Stunners	unpublished	var.
+T.01	Summers, G.	New Puzzles in Logical Deduction	Dover	1968
+T.02	Summers, G.	Test Your Logic	Dover	1972
+T.03	Tahan, M.	The Man who Counted	Norton	1993
+T.04	Treat, L.	Crime and Puzzlement	Godine	1981
+W.01	Trigg, C.	Mathematical Quickies	Dover	1985
+W.02	Turner, K.	Darts: the Complete Book of the Game	Harper & Row	1980
+W.03	Webster, D.	More Brain-Boosters	Doubleday	1975
+W.04	Walch, J. (?)	Amusing Problems in Algebra	Walch	1982
+W.05	Walch, J. (?)	Challenging Problems in Geometry	Walch	1985
+W.06	Weeks, A. & Adkins, J.	First Course in Algebra	Bates	1982
+W.07	Weeks, A. & Adkins, J.	Second Course in Algera	Bates	1982
+W.08	Weeks, A. & Adkins, J.	A Course in Geometry	Bates	1982
+W.09	Weeks, R.	Boys' Own Arithmetic	Dutton	1924
+W.10	Wells, D.	Can You Solve These? Series 2	Tarquin	1984
+W.11	Wells, D.	Can You Solve These? Series 3	Tarquin	1986
+W.12	Wills, H.	Leonardo's Dessert: No Pi	NCTM	1985
+W.13	Wylie, C.	101 Puzzles in Thought and Logic	Dover	1957

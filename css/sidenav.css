@@ -1,0 +1,82 @@
+/*
+NOTE: I've been messing with this a bit because Michael
+sugessted that the list still be left-aligned. The simplest
+way I found to do that was to center text in the whole div and
+make the list an inline-block element. Then, I left-align text
+within the list. 
+
+This notably restricts the width of the hoverable link to below
+its horizontal span within the main div, so we'd need to find a
+workaround if we wanted to keep these changes. Personally, I
+think that we should end up using the sidebar for an in-depth
+main navigation portal, but we can talk about that.
+*/
+
+/*Side navigation bar*/
+#sidenav h3 { /*Header of sidenav*/
+	text-align: center; 
+	background-color: #333;
+	/*border: 1px solid white;*/
+	margin: 0;
+	border-radius: 20px;
+	color: white;
+	padding: 20px;
+} 
+#sidenav {
+	padding-bottom: 20px;
+	height: auto;
+	background-color: #333; /*Greyish black*/
+	border-radius: 20px;
+	text-align: center;
+}
+
+/* Sidebar list styling */
+#sidenav ul {
+	display: inline-block;
+	list-style-type: none; /*No bullet points*/
+	padding: 0;
+	-webkit-padding-start: 0; /*Prevents empty column of space on left side*/
+	margin: 0 auto;
+	text-align: left;
+}
+/*Entries in bar*/
+
+/*
+#sidenav li {
+	display: inline;
+	margin: 0 auto;
+}
+*/
+
+/*
+#sidenav li {
+	width: 0px;
+	margin: 0 auto;
+}
+*/
+
+#sidenav a {
+	/*text-align: center; /* Commented out by Michael's request */
+	display: block;
+	padding: 0;
+	color: #f3f3f3;
+	text-decoration: none;
+}
+
+/*
+#sidenav:last-child{
+	padding-bottom:10px;
+}
+*/
+
+/*When active*/
+#sidenav a.active {
+	background-color: #4CAF50; /*Green*/
+ 	color: white;
+}
+/*When hovering*/
+#sidenav a:hover /*:not(.active)*/ {
+	background-color: #4CAF50; /*Green*/
+	color: white;
+}
+

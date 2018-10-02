@@ -1,0 +1,101 @@
+div.editorFormWrapper {
+	margin: 0;
+	margin-top: 20px;
+}
+
+div.editorFormWrapper h2 {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid black;
+}
+
+#resetButton {
+	margin-top: 10px;
+	font-size: 1em;
+}
+
+#loginForm {
+	margin-top: 10px;
+}
+
+.editorForm {
+	;
+}
+
+.editorForm table {
+	border-collapse: separate;
+	border-spacing: 0 1em;
+}
+
+.editorForm td.fieldName {
+	text-align: right;
+	width: 1%;
+	white-space: nowrap;
+	padding-right: 5px;
+}
+
+.editorForm tr {
+	margin-bottom: 5px;
+}
+
+.editorForm table {
+	width: 100%;
+	/*display: block;*/
+}
+
+
+.editorForm td.fieldValue *, #problemSelector input {
+	font-family: Courier;
+	font-size: 1.2em;
+}
+
+td.fieldValue input.imageInput {
+	display: none;
+}
+
+
+.editorForm textarea {
+	min-height: 6em;
+	width: 99%;
+	overflow: hidden;
+	resize: none;
+}
+
+
+#problemSelector {
+	display: block;
+	margin-top: 10px;
+	font-size: 1em;
+}
+
+
+.editorFormWrapper button {
+	font-size: 1em;
+}
+
+input[type=submit] {
+	font-size: 1em;
+}
+
+table.tagTable {
+	width: auto;
+	border-collapse: collapse;
+	border-bottom: 1px solid black;
+}
+
+table.tagTable th {
+	border-bottom: 1px solid black;
+}
+
+table.tagTable th.tagType {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom-style: dotted;
+}
+
+table.tagTable td {
+	vertical-align: top;
+	padding: 0 30px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
