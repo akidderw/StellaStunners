@@ -24,6 +24,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
                 <tr>
                         <th> Stella Index </th>
                         <th> Title</th>
+			<th> Add</th>
                 </tr>
         
 	        <?php
