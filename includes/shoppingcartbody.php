@@ -13,16 +13,14 @@
 		<!-- explode cookie -->
 		<?php
 		if(isset($_COOKIE[$cookie_name])){
-			$arr=explode(",",$_COOKIE[$cookie_name]);
-			foreach($arr as $i){
-				$temp = explode(":",$i);
+			foreach($_COOKIE[$cookie_name] as $name => $value){
+				$temp = explode(":", $value);
 				if($temp[0] == null) break;
 				echo 	"<tr><td><a href=/problems/show-problem.php?n=$temp[1]> $temp[0] </td>
-					<td>$temp[1]</td>
-					<td><a class='button button1'  href=\"index.php?del=$temp[1]\">X</a></td>
-					</tr>";
+									<td>$temp[1]</td>
+														<td><a class='button button1'  href=\"index.php?del=$temp[1]\">X</a></td>															</tr>";
 			}
-			}else{
+						}else{
 				echo "<tr><td>No</td><td>Cookie</td><td></td></tr>";
 			}
 			?>

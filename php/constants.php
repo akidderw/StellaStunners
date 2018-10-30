@@ -1,4 +1,9 @@
 <?php
+$cookie_name = "problems";
+setcookie("problems[1]", "problem1:1",time() + 2592000, "/");
+setcookie("problems[2]", "problem2:2",time() + 2592000, "/");
+setcookie("problems[3]", "problem3:3",time() + 2592000, "/");
+/*
 //set cookie
 $cookie_name = "user";
 if(isset($_COOKIE[$cookie_name])){
@@ -55,4 +60,5 @@ if(isset($_GET['del'])){
 //echo "no run";
 
 }
+*/
 ?>
