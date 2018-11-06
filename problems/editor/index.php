@@ -105,7 +105,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 			}?>
 			</td>
 			<td>
-			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ", "Alg-Prep", "Alg-Recent", "Symbol-Pushing", "Alg-Review", "Geom-Recent", "Geom-Review", "Trig", "Pre-Calc", "Calculator", "Introductory") as $topic) {
+			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ&R", "Alg-Prep", "Algebra", "Symbol-Pushing", "Geom-Recent", "Geom-Review", "Geom-Informal", "Geom-Eucl", "Geom-Analyt", "Trig", "Pre-Calc", "Calculator", "Introductory") as $topic) {
 				echo "<input type=\"checkbox\" name=\"$topic\" value=\"1\">$topic<br>\n";
 			}?>
 			</td>
@@ -192,7 +192,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 			}?>
 			</td>
 			<td>
-			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ", "Alg-Prep", "Alg-Recent", "Symbol-Pushing", "Alg-Review", "Geom-Recent", "Geom-Review", "Trig", "Pre-Calc", "Calculator", "Introductory") as $topic) {
+			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ&R", "Alg-Prep", "Algebra", "Symbol-Pushing", "Geom-Recent", "Geom-Review", "Geom-Informal", "Geom-Eucl", "Geom-Analyt", "Trig", "Pre-Calc", "Calculator", "Introductory") as $topic) {
 				echo "<input type=\"checkbox\" name=\"$topic\" value=\"1\">$topic<br>\n";
 			}?>
 			</td>
