@@ -81,3 +81,19 @@ if(!isset($_COOKIE[$cookie_name])) {
 		//no cookie, do nothing. maybe display an error
 	}
 ?>
+//example searching for a problem
+$handle = new Stella();
+if (isset($_GET[“tag”]){
+	$result = $handle->query(“SELECT problems.id, title FROM tagmap, problems WHERE tagmap.tag_id = $_GET[‘tag’] AND tagmap.problem_id = problems.id ORDER BY problem_id;”);
+}else {$result = $handle->query(“SELECT id, title FROM problems ORDER BY id”); }
+
+//example for searching database for 2 tags: tag 3 and tag 20!
+mysql> SELECT DISTINCT problems.id, title
+    -> FROM problems
+    -> INNER JOIN tagmap a ON a.problem_id = problems.id
+    -> INNER JOIN tagmap b ON b.problem_id = problems.id
+    -> WHERE a.tag_id = 3 and b.tag_id = 20
+    -> ORDER BY problems.id;    
+    
+    
+    
