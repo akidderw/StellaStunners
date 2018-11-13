@@ -48,10 +48,10 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 	<hr>
 	<button id='solution'> Show Solution </button>
 	<p id='solutiontext'><b>Solution: <br></b>
-		<?php echo "{$problem->getSolText()}";  ?> </p>
+		<?php echo "{$problem->getSolText()}";  ?>
 		<br>
 		<img src="<?php echo "{$problem->getSolImgURL()}"; ?>">
-		
+	</p>
 	<div id="tagList">
 	<span>Tags:</span>
 	<?php foreach ($problem->getTags() as $tagName) {
