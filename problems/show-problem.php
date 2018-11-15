@@ -42,9 +42,9 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 	<h2 style="font-family: serif;"> <?php echo "{$problem->getID()} &ndash; {$problem->getTitle()}"; ?> </h3>
 
 	<br>	
-	<img src="<?php echo "{$problem->getProbImgURL()}"; ?>"> 
-
 	<p><?php echo "{$problem->getProbText()}"; ?>  </p>
+
+	<img src="<?php echo "{$problem->getProbImgURL()}"; ?>"> 
 	<hr>
 	<button id='solution'> Show Solution </button>
 	<p id='solutiontext'><b>Solution: <br></b>
