@@ -8,6 +8,7 @@ include_once(DOCUMENT_ROOT."/php/functions.php");
 $title = "Home";
 $pageName = "Stella's Stunners";
 include_once(DOCUMENT_ROOT."/includes/header.php");
+include_once(DOCUMENT_ROOT."/includes/shoppingcartbody.php");
 ?>
 
 <?php include_once(DOCUMENT_ROOT."/includes/sidenav.php") ?>
@@ -16,7 +17,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 	<h1><?php echo $pageName ?></h1>
 	<h3>Welcome to Rudd Crawford's Stella's Stunners collection!</h3>
 
-	<p>Oberlin College welcomes you to Rudd Crawford's vast library of more than 600 non-routine mathematics problems known as Stella's Stunners. The problems range from simple visual problems, requiring no specific mathematical background, to problems that use the content of Pre-Algebra, Algebra I, Geometry, Algebra II and Trigonometry, up through Pre-Calculus.</p>
+	<p> Oberlin College welcomes you to Rudd Crawford's vast library of more than 600 non-routine mathematics problems known as Stella's Stunners. The problems range from simple visual problems, requiring no specific mathematical background, to problems that use the content of Pre-Algebra, Algebra I, Geometry, Algebra II and Trigonometry, up through Pre-Calculus.</p>
 
 	<p>The Stella problems are not typical textbook exercises. They are considered "non-routine" problems because the methods of attacking them are not immediately obvious. Because these problems can supplement and enliven traditional mathematics courses in a variety of ways, we have included materials to assist in using Stella problems in your teaching:</p>
 
