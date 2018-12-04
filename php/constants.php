@@ -1,5 +1,6 @@
 <?php
 $cart_size = 0;
+$problem_id = 'runescaping';
 $cookie_name = "problems";
 setcookie("problems[1]", "problem1:1",time() - 2592000, "/");
 setcookie("problems[2]", "problem2:2",time() - 2592000, "/");
