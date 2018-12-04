@@ -2,6 +2,10 @@
 define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT']);
 include_once(DOCUMENT_ROOT."/php/constants.php");
 include_once(DOCUMENT_ROOT."/php/functions.php");
+function setId($ID){
+$problem_id = $ID;
+return $problem_id;
+}
 ?>
 
 <?php
@@ -49,10 +53,20 @@ include_once(DOCUMENT_ROOT."/includes/shoppingcartbody.php");
 		var id = this.name;
 		//var quantity = $(this).find('.cart-quantity').val();
 		// redirect to add_to_cart.php, with parameter values to process the request
-		id= "add-to-cart.php?id=" + id;
+		post(id);
+		//console.log(id);
 		return false;
 		});
 	});
+
+	function post(id){
+		var pid = id;
+		console.log('hello');
+		$.post('add-to-cart.php',{postid:pid},function(data){
+			//$('#content').html(data);
+		});
+		
+	}
 	</script>
 	<!-- <p><a href="checkout.php">Make Document</a></p> -->
 

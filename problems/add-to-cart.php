@@ -1,5 +1,5 @@
 <?php
-$id = isset($_GET['id']) ? $_GET['id'] : "";
-echo $id
-setcookie($id);
+	$pid = $_POST['postid'];
+	echo('hello');
+	echo($pid);
 ?>
