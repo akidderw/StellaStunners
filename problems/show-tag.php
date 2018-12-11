@@ -58,7 +58,10 @@ include_once(DOCUMENT_ROOT."/includes/sidenav.php")
 		$handle = new Stella();
 		$result;
 		if ($numtags == 1){
-			$result = $handle->query('SELECT DISTINCT problems.id, title FROM tagmap, problems WHERE tagmap.tag_id = '.$_GET["tag"].' AND tagmap.problem_id = problems.id ORDER BY problem_id');
+			$result = $handle->query('SELECT problems.id, title 
+								FROM tagmap, problems 
+								WHERE tagmap.tag_id = '.$_GET["tag"].' AND tagmap.problem_id = problems.id 
+								ORDER BY problems.id');
 		} else if ($numtags == 2) {
 			$result = $handle->query('SELECT DISTINCT problems.id, title 
 								FROM tagmap, problems 
