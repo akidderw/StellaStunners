@@ -33,19 +33,21 @@ require_once(DOCUMENT_ROOT."/php/DBHandler.php");
 
 $handle = new Stella();
 $result = $handle->query('SELECT name FROM tags WHERE id=' . $tag1 . ' OR id=' . $tag2 . ' OR id=' . $tag3);
-$pageName = "Showing: " . $result->fetch_assoc()["name"];
+$pageHeader = "Showing: " . $result->fetch_assoc()["name"];
 while ($row = $result->fetch_assoc()) {
-	$pageName = $pageName . " and " . $row["name"];
+	$pageHeader = $pageHeader . " and " . $row["name"];
 }
 
-$pageName = str_replace('set', 'Problem Set ', $pageName);
+
+$pageHeader = str_replace('set', 'Problem Set ', $pageHeader);
+$title = str_replace('Showing: ', '', $pageHeader);
 
 include_once(DOCUMENT_ROOT."/includes/header.php");
 include_once(DOCUMENT_ROOT."/includes/sidenav.php")
 ?>
 
 <div id="content">
-	<h1><?php echo $pageName ?></h1>
+	<h1><?php echo $pageHeader ?></h1>
 	<table id="problems_table">
                 <!-- Top Row -->
                 <tr>
