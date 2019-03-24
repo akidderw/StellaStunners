@@ -49,8 +49,6 @@ $(document).ready(function() {
     <option value="28">Algebra Prep</option>
     <option value="29">Algebra</option>
     <option value="30">Symbol-Pushing</option>
-    <option value="32">Geometry-Recent</option>
-    <option value="33">Geometry-Review</option>
     <option value="38">Geometry-Informal</option>
     <option value="39">Geometry-Euclidean</option>
     <option value="40">Geometry-Analytical</option>
@@ -70,6 +68,7 @@ for ($i=1; $i<19; $i++){
   $link = "/problems/show-problem.php?tag=set" . $i;
   echo "<a class='side-link' href='/problems/show-tag.php?tag=$i'><li>Problem Set $i</li></a>";
 }
+echo "<a href='/problems/show-tag.php?tag=41'><li>Problem Set 99</li></a>";
 ?>
 </ul>
 </div>
