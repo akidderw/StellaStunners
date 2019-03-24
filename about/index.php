@@ -20,12 +20,14 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 
 	<p>In this section Rudd Crawford shares ways that he has used <a href="classroom.php">Stella in the classroom</a>, some example grading slips (<a href="grading_slips_small.pdf" target="_blank">small</a> and <a href="grading_slips_large.pdf" target="_blank">large</a>), and methods for <a href="extending.php">extending the problems</a>.</p>
 	
-
+	<!--
+	This code should not be displayed on the final site
 	<hr>
 	<p>Put some LaTeX code here:</p>
 	<textarea id="texCode" style="font-family: Courier; font-size: 1.2em; width: 100%; max-width: 100%; min-height: 4.8em; outline: none; resize: none; overflow: hidden;"></textarea>
 	<br>
 	<button onclick="writeMath()" style="cursor: pointer; margin-top: 20px;">Preview</button>
+	-->
 	<script> /* Ripped from https://gist.github.com/ugin/5779160 */
 		function resize(event) {
 			event.target.style.height = 'auto';

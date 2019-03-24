@@ -52,6 +52,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 		<br>
 		<img src="<?php echo "{$problem->getSolImgURL()}"; ?>">
 	</p>
+
 	<div id="tagList">
 	<span>Tags:</span>
 	<?php foreach ($problem->getTags() as $tagName) {
