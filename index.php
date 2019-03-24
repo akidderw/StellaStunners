@@ -15,14 +15,15 @@ include_once(DOCUMENT_ROOT."/includes/shoppingcartbody.php");
 
 <div id="content">
 	<h1><?php echo $pageName ?></h1>
-	<h3>Welcome to Rudd Crawford's Stella's Stunners collection!</h3>
+	<h3>Welcome to the library of Stella's Stunners.</h3>
 
-	<p> Oberlin College welcomes you to Rudd Crawford's vast library of more than 600 non-routine mathematics problems known as Stella's Stunners. The problems range from simple visual problems, requiring no specific mathematical background, to problems that use the content of Pre-Algebra, Algebra I, Geometry, Algebra II and Trigonometry, up through Pre-Calculus.</p>
+	<p> Oberlin College welcomes you to an ever-growing library of non-routine mathematical challenge problems, collected by schoolteacher Rudd Crawford, with help, for more than 50 years.  The problems, numbering over 600 so far, range from simple visual problems that require no specific mathematical background, to problems that use the content of Pre-Algebra, Algebra I, Geometry, Algebra II and/or Trigonometry, up into the foothills of calculus.</p>
 
-	<p>The Stella problems are not typical textbook exercises. They are considered "non-routine" problems because the methods of attacking them are not immediately obvious. Because these problems can supplement and enliven traditional mathematics courses in a variety of ways, we have included materials to assist in using Stella problems in your teaching:</p>
+	<p>The Stella problems are not typical textbook exercises. They are considered "non-routine" problems because the methods of attacking them are not immediately obvious.  Indeed, the immediate response from students is, typically, "Wait! Are you kidding me? No way!"  Because these problems can supplement and enliven traditional mathematics courses in a variety of ways, we have included materials to assist you in using Stella problems in your teaching.  This home page gives links to these materials.</p>
 
 	<ul>
-	<li><a href="background">Background essays</a></li>
+	<!--comment out the link for backgroud, as links for  the same articles are provided in the following sentences-->
+	<li><!--<a href="background">-->Background essays</a></li>
 		<ul>
 		<li><a href="background/problem_solving.php">What students gain from problem solving</a></li>
 		<li><a href="background/heuristics.php">Some helpful problem solving heuristics</a></li>
@@ -30,7 +31,7 @@ include_once(DOCUMENT_ROOT."/includes/shoppingcartbody.php");
 		</ul>
 	<li>Introductory problems with detailed solutions</li>
 		<ul>
-		<li>Intro essay</li>
+		<li><a href="intro/intro_essay.php">Intro essay</a></li>
 		<li>Problems and solutions</li>
 		</ul>
 	<li>Problem sets: 18 sets for 5 courses</li>
@@ -49,6 +50,11 @@ include_once(DOCUMENT_ROOT."/includes/shoppingcartbody.php");
 		<li>By tags</li>
 		</ul>
 	<li>The Stella Decimal System</li>
+		<ul>
+		<li><a href="stella_system/stella_num.php">By Stella number</a></li>
+		<li><a href="stella_system/topic.php">By topic</a></li>
+		<li><a href="stella_system/topic_overview.php">Topic overview</a></li>
+		</ul>
 	<li><a href="copyright">Sources</a></li>
 	<li>How to contact us</li>
 	<li>How to suggest problems for inclusion in the library</li>
