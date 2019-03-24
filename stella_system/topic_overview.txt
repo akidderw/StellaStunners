@@ -1,0 +1,14 @@
+Topic	Stella number
+Visual:	1000-1095
+Logic:	1100-1290, 3750
+Arithmetic, integers:	1300-1342
+Arithmetic: 	1350-2022
+Calculator:	1465-1480
+Algebra-Prep:	1530-1550
+Algebra:	2030-2745,2859-2990
+Symbol Pushing:	2030-2745,2859-2990
+Analytic Geometry:	2750-2840,3600-3850
+Informal Geometry:	3000-3080
+Euclidean Geometry:	3100-3650,3752-3850
+Trigonometry:	4000-4340
+Probability:	4400-4420

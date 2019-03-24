@@ -1,0 +1,351 @@
+1000	visual problems
+1007	"networks, tracing"
+1008	pattern completion (visual)
+1009	counting shapes in shapes
+1010	"visual sequences, linear"
+1015	"visual sequences, 2-dimen."
+1020	"geometry, informal"
+1026	tesselation
+1027	partitions
+1030	connecting dots
+1040	"trees in rows, planting"
+1050	"pennies, arranging"
+1060	toothpicks
+1070	"grabbers, trick quest, cheap shots"
+1079	"words, problems about"
+1080	optical illusions
+1090	"three-dimen. problems, elem ."
+1093	geoblocks
+1094	two-dimen. versions of 3-d prob.
+1095	missing faces of solids
+1100	"number patterns (cf. 2530, 2850)"
+1110	"numbers in patterns, arranging"
+1120	cross-number puzzles
+1130	magic squares
+1140	pails and measuring
+1160	crypt-arithmetic
+1170	"money/coins: change; value (cf. 1350, 2480)"
+1180	"logic, analysis (classic brainteasers)"
+1190	"time, incl. calendars"
+1192	calendars
+1200	rank ordering
+1210	hats: who has which hat on
+1220	sorting: Canadian owns the wombat
+1230	"sorting, misc.: which is which"
+1232	incomplete information charts
+1240	river crossing
+1245	Jeep problems
+1250	false coins (2-pan scales)
+1255	"scales, two-pan"
+1260	handshake problem
+1270	pigeonhole principle
+1280	liars/truthtellers
+1290	venn diagrams (cf. 2030)
+1300	"numerals, writing; digits (pl. value, cf. 1720)"
+1305	odd-even numbers
+1307	consecutive integers
+1310	adding and subtracting (cf. 1140)
+1320	"multiplying and dividing (incl +, -) (cf. 1140)"
+1322	remainders
+1330	squares & square roots (cf.1670)
+1331	squares (cf. 1670)
+1332	square roots
+1333	higher powers & roots
+1334	"powers, higher"
+1335	"roots, higher"
+1340	counting (how many)
+1342	counting: how many ways
+1350	"decimal arithmetic, incl. $ (cf. 1170, 2480)"
+1360	rational numbers
+1365	fractions (numerical)
+1367	"fractions, equivalent"
+1368	rational number arithmetic
+1370	"percent, numerical (cf. 2410, 2290)"
+1380	integers
+1385	integer operations
+1390	irrationals
+1395	radical manipulation
+1400	rationalization
+1410	"exponents, arithmetic using (cf. 2100)"
+1412	"exponents, laws of"
+1420	approximation
+1430	"arithmetic means, numerical (cf. 2452, 2860)"
+1440	"geometric means, num.  (cf. 2454, 2870, 3590)"
+1450	"harmonic means, num.  (cf. 2456, 2880)"
+1460	"calculator, use of"
+1465	"calculator, broken key"
+1470	calculator: heavy calculations
+1480	calculator pattern discovery
+1490	bargains (cf. linear programming 2220)
+1510	"living life (1/8 as boy , 1/4  as..)"
+1520	wages
+1530	"word problems, whole #'s (""typical"")"
+1540	"word problems, hard but (""typical"")"
+1550	word problems: soft-core algebra
+1560	pickanumba
+1600	prime numbers
+1610	factors
+1620	prime factorization
+1630	"factor, greatest common"
+1640	divisibility
+1650	multiples
+1660	"multiples, least common"
+1680	factorials
+1690	diophantine equations
+1700	number bases
+1710	sums of integers
+1720	"place value, prob about (cf.1300)"
+1730	number theory proofs
+1740	modular arithmetic
+1800	"measurement, elementary"
+1810	dimensional analysis
+1900	flow charts
+2010	"real number system, structure"
+2020	i
+2021	complex numbers
+2022	complex number operations
+2030	sets (cf. 1290)
+2040	"operations, prop. of (""new math"")"
+2050	numerical expressions: order of op.
+2070	"formulas, inventing (alg. expr.) (cf. 2530, 2580)"
+2080	symbol manipulation (cf. 2110)
+2090	linear expressions
+2100	"exponents, algebraic expr. with (cf. 1410)"
+2110	polynomial manipulation
+2120	"factoring, misc."
+2121	"factoring, quadratics"
+2122	"factoring, cubics and higher"
+2130	absolute value (cf. 2285)
+2140	ratio
+2150	rational expressions
+2152	"rational expressions, evaluating"
+2160	"fractions, complex"
+2162	"fractions, continued"
+2180	"radicals, roots"
+2190	reciprocals
+2200	"equations, linear & rational"
+2210	"inequalities, linear, incl. abs. values"
+2211	inequalities w/ abs. value
+2220	linear programming (cf . bargains 1490)
+2230	"equations, quadratic"
+2232	"functions, quadratic"
+2238	"equations, quadratic, non-routine"
+2240	factoring: quadratic equations
+2250	"inequalities, quadratic"
+2250	rational equations
+2260	cubics & higher degrees (cf.2680)
+2270	equations involving radicals
+2285	equations with absolute value (cf. 2130)
+2286	equations w/ radicals
+2288	"equations, misc."
+2290	proportions (cf. 2560)
+2300	"equations, exponential"
+2305	exponential growth
+2310	"equations, systems of, linear"
+2315	"equations, systems, 3 or more variables"
+2320	"equations, systems of, non-linear"
+2330	"equations, systems of, trig."
+2340	"equations, systems of, misc."
+2350	"inequalities, misc."
+2360	"matrices, determinants"
+2361	matrices
+2365	determinants
+2370	"identities, algebraic"
+2380	binomial coefficients
+2385	Pascal's triangle (cf. 2890)
+2390	binomial expansion
+2400	"problem solving, about"
+2405	translating words to equations
+2407	translating words to diagrams
+2408	word prob. w/ diagrams
+2410	"percent, algebraic (cf. 1370)"
+2412	percent from Henle
+2420	rates
+2430	valves
+2440	"distance, rate, time"
+2442	distances upstream/downstream
+2445	perimeter & area & volume
+2447	area (cf. 3410-3450)
+2448	volume (cf. 3650)
+2450	"means arith, geom, harm (cf. 2860-80)"
+2452	"arithmetic means, algebraic"
+2454	"geometric means, algebraic"
+2456	"harmonic means, algebraic"
+2460	ages
+2465	"ages, complicated problems"
+2470	profit and loss
+2480	"money (cf. 1170, 1350)"
+2485	pre-calc text alg. probs.
+2490	probs. w/ ans. a range of values
+2500	probs. misc. (consecutive integers)
+2510	"operations, made-up, e.g. 2*3"
+2520	relations
+2530	"functions, informal (cf. 2580, 2630, 2070)"
+2540	"domain, range"
+2542	domain
+2544	range
+2560	"variation, direct (cf. 2290)"
+2570	"variation, inverse"
+2580	f(x) notation
+2585	"functions, graphs of"
+2590	"absolute value function (see 2130, 2285)"
+2600	greatest integer function
+2610	composite functions
+2615	"functions, recursive"
+2620	inverse functions
+2630	"equations, functional"
+2640	"equations, polynomial"
+2650	"polynomials, real roots of"
+2660	"polynomials, complex &/or real rts."
+2670	remainder theorem
+2680	cubics (cf. 2260)
+2700	sequences & series (cf. 2860-80)
+2701	sequences
+2702	series
+2710	"functions, exponential"
+2720	optimization
+2730	logarithms: manipulations
+2735	log to exp. form & v.v.
+2740	logarithms: change of base
+2745	"equations, logarithmic"
+2750	coordinate plane
+2760	"coord. geom: slope, dist, midpt. &c."
+2761	slope of line
+2762	distance formula
+2763	midpoint formula
+2770	lines on coordinate plane (cf. 3680)
+2780	conic sections
+2782	parabolas
+2784	ellipses
+2786	hyperbolas
+2788	circles (equations)
+2790	coordinate space: 3-d analyt. geom.
+2800	spheres (analytical)
+2810	"graphing techniques symm, asymp."
+2820	polar coordinates
+2840	DeMoivre's theorem
+2850	sequences (progressions)
+2860	"sequences, arithmetic (cf. 1430)"
+2870	"sequences, geometric (cf. 1440, 3590)"
+2880	"sequences, harmonic (cf. 1450)"
+2890	Fibonacci numbers (cf. 2385)
+2900	series
+2950	induction
+2970	vectors
+2980	limits
+2990	probs. w/ (seemingly) insuff. info
+3000	"geometry, informal (for geom. class) (cf. 1020)"
+3004	four-color problem
+3050	"geometry: early (segments, angles)"
+3060	points in plane
+3065	points in space
+3070	"suppl., compl. angles "
+3071	complementary angles
+3072	supplementary angles
+3080	"separation (regions, counting)"
+3100	triangles and congruence
+3140	three-dimen. prob. w/ cong. triang.
+3150	"triangles, elementary: general"
+3155	"triangles, advanced, general"
+3160	"triangles, isosceles"
+3170	"triangles, equilateral"
+3180	"triangles, right"
+3190	"triangles, right, 30-60"
+3200	"triangles, right isosceles"
+3210	"inequalities, geometric"
+3220	"optimization, geometric"
+3230	"median, alt, angle bis, &c."
+3231	medians of triangles
+3232	altitudes of triangles
+3233	angle bisection of triangles
+3234	perpendicular bisection of sides of triangles
+3235	midline of triangles
+3240	Menelaus's theorem
+3250	Ceva's theorem
+3260	parallel and perpendicular lines
+3261	parallel lines
+3262	perpendicular lines
+3270	parallel &perp.  lines & planes
+3300	polygons
+3305	"polygons, regular"
+3310	"polygons, angles of"
+3320	inscribed & circumscr. polyg. (cf.3570)
+3321	inscribed polygons
+3322	circumscribed polygons
+3330	convexity
+3340	trapezoids
+3350	parallelograms
+3360	rectangles
+3370	rhombi
+3380	squares
+3390	other polygons
+3400	perimeter
+3405	area and perimeter
+3410	area (cf. 3420-3460)
+3420	"polygons, area of"
+3440	"circles, area of"
+3450	"area, surface"
+3460	area in coordinate plane
+3470	Pythagorean theorem
+3475	Pythagoras in 3 dimensions
+3500	circles
+3510	arcs and angles
+3520	chords and angles
+3530	tangents
+3540	secants
+3550	circumference
+3560	power of a point
+3570	inscribed & circumscribed circles
+3571	inscribed circles
+3572	circumscribed circles
+3580	similarity (proportion)
+3590	"means, geometric, in geometry (cf. 1440, 2870)"
+3600	solids
+3601	patterns of solids
+3602	sections of solids
+3610	cubes
+3615	rectangular prisms
+3618	cylinders
+3620	pyramids
+3625	cones
+3630	tetrahedrons
+3640	spheres
+3650	volume
+3680	analytic geometry: lines (cf. 2770)
+3685	analytic triangles
+3687	lattice points
+3690	analytic geometry: circles (cf.2780)
+3695	analytic problems in 3-dimensions
+3700	analytic geometry: spheres (cf. 2800)
+3720	"reflections, rotations, translations"
+3721	reflections
+3722	rotations
+3723	translations
+3750	"logic, formal"
+3752	"proofs, geometric "
+3754	"proofs, algebraic"
+3755	"proofs, phony"
+3800	constructions
+3850	locus
+4000	"trigonometry, basics"
+4040	"trigonometry functions, graphs of"
+4050	trigonometry on triangles
+4060	sin(x + y)
+4080	cos(x+ y)
+4100	"identities, trigonometric"
+4120	"functions, inverse trigonometric"
+4140	law of sines
+4160	law of cosines
+4180	radians
+4200	"trigonometry probs, juicy numerical"
+4220	"trigonometry, spherical / 3-d probs"
+4300	combinatorics
+4340	"trigonometry on polyhedra, numer."
+4400	probability (cf. 1340)
+4410	combinations
+4420	permutations
+5000	SAT for algebra 1
+5200	SAT for geometry
+5300	SAT for algebra/trig and beyond
+5400	achievement level 1
+5500	achievement level 2
