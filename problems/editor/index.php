@@ -95,9 +95,13 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 		</tr>
 		<tr>
 			<td>
-			<?php for ($i = 1; $i <= 18; $i++) {
-				echo "<input type=\"checkbox\" name=\"set$i\" value=\"1\">Set $i<br>\n";
-			}?>
+			<?php
+			echo "<input type=\"checkbox\" name=\"Introductory\" value=\"1\">Introductory<br>\n";
+			for ($i = 1; $i <= 18; $i++) {
+			      echo "<input type=\"checkbox\" name=\"set$i\" value=\"1\">Set $i<br>\n";
+			}
+			echo "<input type=\"checkbox\" name=\"set99\" value=\"1\">Set 99<br>\n";
+			?>
 			</td>
 			<td>
 			<?php foreach (array("PreAlg", "AlgI", "Geom", "Alg/Trig", "PCM") as $course) {
@@ -105,7 +109,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 			}?>
 			</td>
 			<td>
-			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ&R", "Alg-Prep", "Algebra", "Symbol-Pushing", "Geom-Recent", "Geom-Review", "Geom-Informal", "Geom-Eucl", "Geom-Analyt", "Trig", "Pre-Calc", "Calculator", "Introductory") as $topic) {
+			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ&R", "Alg-Prep", "Algebra", "Symbol-Pushing", "Geom-Informal", "Geom-Eucl", "Geom-Analyt", "Trig", "Pre-Calc", "Calculator") as $topic) {
 				echo "<input type=\"checkbox\" name=\"$topic\" value=\"1\">$topic<br>\n";
 			}?>
 			</td>
@@ -182,9 +186,13 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 		</tr>
 		<tr>
 			<td>
-			<?php for ($i = 1; $i <= 18; $i++) {
+			<?php
+			echo "<input type=\"checkbox\" name=\Introductory\" value=\"1\">Introductory<br>\n";
+			for ($i = 1; $i <= 18; $i++) {
 				echo "<input type=\"checkbox\" name=\"set$i\" value=\"1\">Set $i<br>\n";
-			}?>
+			}
+			echo "<input type=\"checkbox\" name=\"set99\" value=\"1\">Set 99<br>\n";
+			?>
 			</td>
 			<td>
 			<?php foreach (array("PreAlg", "AlgI", "Geom", "Alg/Trig", "PCM") as $course) {
@@ -192,7 +200,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 			}?>
 			</td>
 			<td>
-			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ&R", "Alg-Prep", "Algebra", "Symbol-Pushing", "Geom-Recent", "Geom-Review", "Geom-Informal", "Geom-Eucl", "Geom-Analyt", "Trig", "Pre-Calc", "Calculator", "Introductory") as $topic) {
+			<?php foreach (array("Visual", "Logic", "ArithZ", "ArithQ&R", "Alg-Prep", "Algebra", "Symbol-Pushing", "Geom-Informal", "Geom-Eucl", "Geom-Analyt", "Trig", "Pre-Calc", "Calculator") as $topic) {
 				echo "<input type=\"checkbox\" name=\"$topic\" value=\"1\">$topic<br>\n";
 			}?>
 			</td>
