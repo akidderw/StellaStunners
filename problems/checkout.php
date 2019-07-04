@@ -20,26 +20,41 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 	$(document).ready(function() {
 		$("#grabProblemButton").click(function() {
 			var problemID = $("#getProblemID");
-			var problemTable = $(this).next();
-			var newRow = "<tr>";
+			var problemTable = $("#problems");
+			var newRow = "";
+			var addType = $("input[type=radio][name=add-type]:checked").val();
 
 			$.ajax({
 				type: "GET",
 				url: "/php/getProblemAsJSON.php",
-				data: "id=" + problemID.val(),
+				data: {
+					id: problemID.val(),
+					addType: addType
+				},
 				dataType: "json"
 			}).done(function(problem) {
+				newRow += "<tr>"
 				newRow += "<td>" + problem.id + "</td>";
 				newRow += "<td>" + problem.title + "</td>"
-				newRow += "<td><button onclick=\"removeProblemRow(event)\">Remove Problem</button></td></tr>"
+				newRow += "<td><button onclick=\"removeProblemRow(event)\">Remove Problem</button></td>"
+				newRow += "</tr>"
 				problemTable.append(newRow);
 
-			}).fail(function(msg) {
-				alert("Could not find the specified problem.");
+			}).fail(function(death) {
+				alert(death.responseText);
 			}).always(function() {
 				problemID.val("");
 			});
 
+		});
+
+		$("input[type=radio][name=add-type]").change(function(evt) {
+			// $("#getProblemID").attr("placeholder", ``)
+			if ($("input[type=radio][name=add-type]:checked").val() === 'id') {
+				$("#getProblemID").attr('placeholder', 'Stella Index')
+			} else {
+				$("#getProblemID").attr('placeholder', 'Title')
+			}
 		});
 
 		$("#getProblemID").keyup(function(evt) {
@@ -98,10 +113,30 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 	<br>Title: <input type="text" id="title"><br>
 
 	<h3>Problems:</h3>
-
-	Enter Stella Index: <input type="text" id="getProblemID">
-	<button type="button" id="grabProblemButton">Add Problem</button>
-
+	<table>
+		<tr>
+			<td>
+				<input id="addIndex" type="radio" name="add-type" value="id" checked>
+				<label for="addIndex">Add by Stella Index</label>
+			</td>
+			<td>
+				<input id="addTitle" type="radio" name="add-type" value="title">
+				<label for="addTitle">Add by Title</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input style="width: 100%" type="text" placeholder="Stella Index" id="getProblemID">
+			</td>
+			<td style="text-align: right">
+				<button type="button" id="grabProblemButton">Add Problem</button>
+			</td>
+		</tr>
+		<!-- <label for="getProblemTitle">Enter Problem Title: </label>
+		<input type="text" id="getProblemTitle">
+		<br /> -->
+	</table>
+	<br>
 	<table id="problems">
 		<tr>
 			<th>Stella Index</th>
