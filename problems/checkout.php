@@ -34,6 +34,13 @@ $(document).ready(function() {
 		
 	});
 
+	$("#getProblemID").keyup(function(evt) {
+		if (event.keyCode === 13) {
+			evt.preventDefault();
+			$("#grabProblemButton").click();
+		}
+	});
+
 	$("#makeDocButton").click(function() {
 		var xhr = new XMLHttpRequest();
 		xhr.open("POST", "make_doc.php", true);
