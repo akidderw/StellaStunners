@@ -11,6 +11,13 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 ?>
 
 <script>
+
+function removeProblemRow(event) {
+	var target = event.target;
+	var row = target.parentNode.parentNode;
+	row.parentNode.removeChild(row);
+}
+
 $(document).ready(function() {
 	$("#grabProblemButton").click(function() {
 		var problemID = $("#getProblemID");
@@ -24,8 +31,10 @@ $(document).ready(function() {
 			dataType: "json"
 		}).done(function(problem) {
 			newRow += "<td>" + problem.id + "</td>";
-			newRow += "<td>" + problem.title + "</td></tr>";
+			newRow += "<td>" + problem.title + "</td>"
+			newRow += "<td><button onclick=\"removeProblemRow(event)\">Remove Problem</button></td></tr>"
 			problemTable.append(newRow);
+
 		}).fail(function(msg) {
 			alert("Could not find the specified problem.");
 		}).always(function() {
@@ -57,20 +66,22 @@ $(document).ready(function() {
 				document.body.appendChild(link);
 				link.click();
 				document.body.removeChild(link);
-;
 			}
 		};
+
 
 		var problemSet = {
 			title: $("#title").val(),
 			problems: new Array()
 		};
 
+		console.log(problemSet);
+
 		$("#problems").find("tr").slice(1).each(function() {
 			problemSet.problems.push($(this).children().first().text());
 		});
 
-		//console.log(JSON.stringify(problemSet));
+		console.log(JSON.stringify(problemSet));
 
 		xhr.send(JSON.stringify(problemSet));
 	});
