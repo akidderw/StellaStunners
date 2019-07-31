@@ -64,6 +64,7 @@ a:visited {
 }
 
 #content-header button {
+  cursor: pointer;
   height: 50%;
   bottom: 0px;
   right: 0px;
