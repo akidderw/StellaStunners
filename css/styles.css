@@ -52,10 +52,26 @@ a:visited {
   margin: 0; /* The default margin pushes past the wrapper */
   padding-top: 10px;
   border-bottom: 1px solid black;
+  display: inline-block;
 }
 
 #content ul {
   margin-bottom: 0;
+}
+
+#content-header {
+  position: relative
+}
+
+#content-header button {
+  height: 50%;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  font-weight: bold;
+  border: 3px solid #ff512d;
+  background-color: whitesmoke;
+  padding: 4px 10px 20px 10px
 }
 
 /* Source table, should maybe be moved to its own file sometime */

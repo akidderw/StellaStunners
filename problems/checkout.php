@@ -2,12 +2,62 @@
 define("DOCUMENT_ROOT", $_SERVER['DOCUMENT_ROOT']);
 include_once(DOCUMENT_ROOT . "/php/constants.php");
 include_once(DOCUMENT_ROOT . "/php/functions.php");
+include_once(DOCUMENT_ROOT . "/php/DBHandler.php");
 ?>
 
 <?php
 $title = "Checkout";
 $pageName = "Make A Document";
 include_once(DOCUMENT_ROOT . "/includes/header.php");
+
+function getProblemsAsJSON($idArray, $handle)
+{
+	$problems = [];
+	try {
+		foreach ($idArray as $problemID) {
+			$problem = $handle->getProblem($problemID);
+			array_push($problems, $problem->toJSON());
+		}
+	} catch (Exception $e) {
+		echo $e;
+	}
+	return $problems;
+}
+
+$problems = [];
+if (isset($_GET['tags'])) {
+	$numtags = count($_GET['tags']);
+	$handle = new Stella();
+	$result;
+	if ($numtags == 1) {
+		$result = $handle->query('SELECT problems.id 
+								FROM tagmap, problems 
+								WHERE tagmap.tag_id = ' . $_GET["tags"][0] . ' AND tagmap.problem_id = problems.id 
+								ORDER BY problems.id');
+	} else if ($numtags == 2) {
+		$result = $handle->query('SELECT DISTINCT problems.id
+								FROM tagmap, problems 
+								INNER JOIN tagmap a ON a.problem_id = problems.id
+								INNER JOIN tagmap b ON b.problem_id = problems.id
+								WHERE a.tag_id = ' . $_GET["tags"][0] . ' AND b.tag_id = ' . $_GET["tags"][1] . ' 
+								ORDER BY problems.id;');
+	} else if ($numtags == 3) {
+		$result = $handle->query('SELECT DISTINCT problems.id 
+								FROM tagmap, problems 
+								INNER JOIN tagmap a ON a.problem_id = problems.id
+								INNER JOIN tagmap b ON b.problem_id = problems.id
+								INNER JOIN tagmap c ON c.problem_id = problems.id
+								WHERE a.tag_id = ' . $_GET["tags"][0] . ' AND b.tag_id = ' . $_GET["tags"][1] . ' AND c.tag_id = ' . $_GET["tag3"][2] . ' 
+								ORDER BY problems.id;');
+	}
+
+	$idArray = [];
+	while ($row = $result->fetch_assoc()) {
+		array_push($idArray, $row['id']);
+	}
+	$problems = getProblemsAsJSON($idArray, $handle);
+	$handle->close();
+}
 ?>
 
 <script>
@@ -142,6 +192,12 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 			<th>Stella Index</th>
 			<th>Title</th>
 		</tr>
+		<?php
+		foreach ($problems as $problem) {
+			$problem = json_decode($problem);
+			echo "<tr><td>{$problem->id}</td><td>{$problem->title}</td><td><button onclick=\"removeProblemRow(event)\">Remove Problem</button></td></tr>";
+		};
+		?>
 	</table>
 
 	<button type="button" id="makeDocButton">Make Document</button>
