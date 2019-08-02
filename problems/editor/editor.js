@@ -25,7 +25,7 @@ function grabProblem(id) {
 	$.ajax({
 		type : "GET",
 		url : "/php/getProblemAsJSON.php",
-		data : "id=" + id,
+		data : "id=" + id + "&addType=id",
 		dataType : "json",
 		success : function(problem) {
 			var form = $("#editProblemForm");
