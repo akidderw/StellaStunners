@@ -67,7 +67,7 @@ class LatexDoc {
 			$this->writeln('\usepackage' . $opt . '{' . $pkg . '}');
 		}
 
-		$this->writeln('\title{' . $this->title . '}');
+		$this->writeln('\title{\vspace{-60pt}' . $this->title . '\vspace{-50pt}}');
 		$this->writeln('\author{' . $this->author . '}');
 		$this->writeln('\date{' . $this->date . '}');
 	}
