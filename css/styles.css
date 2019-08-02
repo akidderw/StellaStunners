@@ -63,16 +63,23 @@ a:visited {
   position: relative
 }
 
+#content-header a {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#content-header h1 {
+  margin-top: 25px;
+}
+
 #content-header button {
   cursor: pointer;
-  height: 50%;
-  bottom: 0px;
-  right: 0px;
-  position: absolute;
   font-weight: bold;
   border: 3px solid #ff512d;
   background-color: whitesmoke;
-  padding: 4px 10px 20px 10px
+  padding: 5px 10px;
+  border-radius: 6px;
 }
 
 /* Source table, should maybe be moved to its own file sometime */
