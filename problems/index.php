@@ -13,7 +13,6 @@ function setId($ID)
 $title = "Problems";
 $pageName = "Problems";
 include_once(DOCUMENT_ROOT . "/includes/header.php");
-include_once(DOCUMENT_ROOT . "/includes/shoppingcartbody.php");
 ?>
 
 <?php include_once(DOCUMENT_ROOT . "/includes/sidenav.php") ?>

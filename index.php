@@ -11,7 +11,6 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 ?>
 
 <?php include_once(DOCUMENT_ROOT . "/includes/sidenav.php") ?>
-<?php include_once(DOCUMENT_ROOT . "/includes/shoppingcartbody.php"); ?>
 
 <div id="content">
 	<h1><?php echo $pageName ?></h1>
