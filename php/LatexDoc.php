@@ -80,7 +80,10 @@ class LatexDoc {
 	// with that problem.
 	function writeProblem($problem) {
 		$this->writeln('\paragraph{'.$problem->getID().' -- '.$problem->getTitle().'}');
-		$this->writeln($problem->getProbText());
+		$probText = $problem->getProbText();
+		$probText = str_replace("<br>", "\\newline", $probText);
+		$probText = str_replace("&nbsp", "", $probText);
+		$this->writeln($probText);
 		if ($problem->getProbImg()) {
 			$this->includeFigure(glob(DOCUMENT_ROOT."/images/stunners/{$problem->getID()}/pfig1.*")[0]);
 		}
