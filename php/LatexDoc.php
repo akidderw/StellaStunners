@@ -81,7 +81,7 @@ class LatexDoc {
 	function writeProblem($problem) {
 		$this->writeln('\paragraph{'.$problem->getID().' -- '.$problem->getTitle().'}');
 		$probText = $problem->getProbText();
-		$probText = str_replace("<br>", "\\newline", $probText);
+		$probText = str_replace("<br>", "\\newline ", $probText);
 		$probText = str_replace("&nbsp", "", $probText);
 		$this->writeln($probText);
 		if ($problem->getProbImg()) {
