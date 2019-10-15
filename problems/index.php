@@ -29,7 +29,6 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		<tr>
 			<th> Stella Index </th>
 			<th> Title</th>
-			<th> Add to Cart</th>
 		</tr>
 
 		<?php
@@ -40,36 +39,11 @@ include_once(DOCUMENT_ROOT . "/includes/header.php");
 		$result = $handle->query("SELECT id, title FROM problems ORDER BY id");
 		//	}
 		while ($row = $result->fetch_assoc()) {
-			echo "<tr><td><a href=\"show-problem.php?id=$row[id]\">$row[id]</td><td>$row[title]</td><td><button class=add-btn type=button id=$row[id] name=$row[id]>Add to Cart</button></td></tr>";
+			echo "<tr><td><a href=\"show-problem.php?id=$row[id]\">$row[id]</td><td>$row[title]</td></tr>";
 		}
 		?>
 	</table>
 
-	<script>
-		$(document).ready(function() {
-			// add to cart button listener
-			$('.add-btn').on('click', function() {
-				// info is in the table / single product layout
-				var id = this.name;
-				//var quantity = $(this).find('.cart-quantity').val();
-				// redirect to add_to_cart.php, with parameter values to process the request
-				post(id);
-				//console.log(id);
-				return false;
-			});
-		});
-
-		function post(id) {
-			var pid = id;
-			console.log('hello');
-			$.post('add-to-cart.php', {
-				postid: pid
-			}, function(data) {
-				//$('#content').html(data);
-			});
-
-		}
-	</script>
 	<!-- <p><a href="checkout.php">Make Document</a></p> -->
 
 </div>
