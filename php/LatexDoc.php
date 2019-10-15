@@ -79,7 +79,10 @@ class LatexDoc {
 	// the .tex file, also putting in a figure if there is one associated
 	// with that problem.
 	function writeProblem($problem) {
-		$this->writeln('\paragraph{'.$problem->getID().' -- '.$problem->getTitle().'}');
+		$probID = $problem->getID();
+		$probTitle = $problem->getTitle();
+		$probTitle = str_replace("&", "\\&", $probTitle);
+		$this->writeln('\paragraph{' . $probID . ' -- ' . $probTitle . '}');
 		$probText = $problem->getProbText();
 		$probText = str_replace("<br>", "\\newline ", $probText);
 		$probText = str_replace("&nbsp", "", $probText);
