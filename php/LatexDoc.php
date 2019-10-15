@@ -67,13 +67,13 @@ class LatexDoc {
 			$this->writeln('\usepackage' . $opt . '{' . $pkg . '}');
 		}
 
-		$this->writeln('\title{\vspace{-60pt}' . $this->title . '\vspace{-50pt}}');
+		$this->writeln('\title{\vspace{-90pt}' . $this->title . '\vspace{-50pt}}');
 		$this->writeln('\author{' . $this->author . '}');
 		$this->writeln('\date{' . $this->date . '}');
 	}
 
 	// Alias for including figures
-	private function includeFigure($fileName) { $this->writeln('\includegraphics{' . $fileName . '}'); }
+	private function includeFigure($fileName) { $this->writeln('\includegraphics[width=4cm]{' . $fileName . '}'); }
 
 	// Given the index number for a problem, writes that problem into
 	// the .tex file, also putting in a figure if there is one associated
