@@ -69,6 +69,10 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 		<br><input type="button" class="removeImageButton" value="Remove Image"></td>
 	</tr>
 	<tr>
+		<td class="fieldName">Problem Image Size:</td>
+		<td class="fieldValue"><input type="text" name="probImageSize" /></td>
+	</tr>
+	<tr>
 		<td style="vertical-align: top;" class="fieldName">Solution Text:</td>
 		<td class="fieldValue"><textarea name="solText"></textarea></td>
 	</tr>
@@ -85,7 +89,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 	<tr></td>
 		<td></td>
 		<td><table class="tagTable">
-		<tr>
+			<tr>
 			<th colspan="3">Tags</th>
 		</tr>
 		<tr>

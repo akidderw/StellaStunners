@@ -128,6 +128,7 @@ class Problem {
 	const TITLE = "title";
 	const PROB_TEXT = "probtext";
 	const PROB_IMG = "probimage";
+	const PROB_IMG_SIZE = "probimagesize";
 	const SOL_TEXT = "soltext";
 	const SOL_IMG = "solimage";
 	const TAGS = "tags";
@@ -141,6 +142,7 @@ class Problem {
 	function getTitle() { return $this->assoc[self::TITLE]; }
 	function getProbText() { return $this->assoc[self::PROB_TEXT]; }
 	function getProbImg() {return $this->assoc[self::PROB_IMG]; }
+	function getProbImgSize() {return $this->assoc[self::PROB_IMG_SIZE];}
 	function getProbImgURL() {
 		// Ripped from https://stackoverflow.com/questions/4517067/remove-a-string-from-the-beginning-of-a-string
 		$images = glob(DOCUMENT_ROOT."/images/stunners/".$this->getID()."/pfig1.*");
