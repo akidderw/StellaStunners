@@ -73,7 +73,10 @@ class LatexDoc {
 	}
 
 	// Alias for including figures
-	private function includeFigure($fileName) { $this->writeln('\includegraphics[width=4cm]{' . $fileName . '}'); }
+	private function includeFigure($fileName, $imgSize) { 
+		$imgSize = $imgSize ? $imgSize : 0.33;
+		$this->writeln("\\includegraphics[width=$imgSize\\textwidth]{" . $fileName . "}"); 
+	}
 
 	// Given the index number for a problem, writes that problem into
 	// the .tex file, also putting in a figure if there is one associated
@@ -88,7 +91,8 @@ class LatexDoc {
 		$probText = str_replace("&nbsp", "", $probText);
 		$this->writeln($probText);
 		if ($problem->getProbImg()) {
-			$this->includeFigure(glob(DOCUMENT_ROOT."/images/stunners/{$problem->getID()}/pfig1.*")[0]);
+			$probImgSize = $problem->getProbImgSize();
+			$this->includeFigure(glob(DOCUMENT_ROOT."/images/stunners/{$problem->getID()}/pfig1.*")[0], $probImgSize);
 		}
 //		$probDir = DOCUMENT_ROOT.'/problems/problem-data/problem'.$probIndex;
 //		$this->writeln('\paragraph{Problem '.$probIndex.'}');
