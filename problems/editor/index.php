@@ -70,7 +70,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 	</tr>
 	<tr>
 		<td class="fieldName">Problem Image Size:</td>
-		<td class="fieldValue"><input type="text" name="probImageSize" /></td>
+		<td class="fieldValue"><input type="text" name="probImageSize" placeholder="Enter w (0 < w <= 1)"/></td>
 	</tr>
 	<tr>
 		<td style="vertical-align: top;" class="fieldName">Solution Text:</td>
@@ -92,7 +92,7 @@ include_once(DOCUMENT_ROOT."/includes/header.php");
 			<tr>
 			<th colspan="3">Tags</th>
 		</tr>
-		<tr>
+		<tr>""
 			<th class="tagType">Problem Set</th>
 			<th class="tagType">Course</th>
 			<th class="tagType">Topics</th>
